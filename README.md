@@ -14,7 +14,7 @@
     Caso tenha duvidas de como executar o script, deixei um commit no arquivo aqui no repositorio GITHUB.
 
 
-   # iterar_txt.ps1 = Limapr dados TXT para XLSX
+   # iterar_txt.py = Limapr dados TXT para XLSX
     Tive um pedido de realizar uma limpeza em um arquivo txt que passou por diversas codificações, assim ficando "sujo" em seus dados.
     Cliente pediu um script que pudesse ajustar linhas e colunas jogando em um arquivo xlsx.
     Esse script vai pegar linhas que estejam sozinhas e ajusta-las em uma nova coluna alinhando seus dados conforme a regra de 10 caracteres.
