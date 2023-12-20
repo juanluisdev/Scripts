@@ -13,6 +13,16 @@
     Ele ira converter todos os arquivos contidos na sua pasta para xlsx.
     Caso tenha duvidas de como executar o script, deixei um commit no arquivo aqui no repositorio GITHUB.
 
+
+   # iterar_txt.ps1 = Limapr dados TXT para XLSX
+    Tive um pedido de realizar uma limpeza em um arquivo txt que passou por diversas codificações, assim ficando "sujo" em seus dados.
+    Cliente pediu um script que pudesse ajustar linhas e colunas jogando em um arquivo xlsx.
+    Esse script vai pegar linhas linhas que estejam sozinhas e ajustalas em uma nova coluna alinhando seus dados conforme a regra de 10 caracteres.
+    Por exemplo:
+          Se na primeira leitura de dados passando por linha a linha ele encontrou uma 1 valor sozinho, ele move a mesma para a linha de baixo adicionando em uma nova coluna alinha, seguindo com a regra de 10 caracteres, ao abrir o txt vcs vão perseber que existe valores que começam com 100 e 450 indo ate 10 caracteres.
+          cada um pertence a mesma linha.
+    Espero de coração que isso possa ajudar alguns Devs que estejam com um arquivo que passou por severas codificações. 
+
  # English
  Scripts to automate everyday life
 
@@ -28,3 +38,11 @@
     It will convert all files contained in your folder to xlsx.
     If you have any doubts about how to run the script, I left a commit on the file here in the GITHUB repository.
 
+  # iterar_txt.ps1 = Limapr TXT data to XLSX
+    I had a request to clean a txt file that had gone through several encodings, thus making its data "dirty".
+    Client asked for a script that could adjust rows and columns playing in an xlsx file.
+    This script will take lines that are alone and adjust them in a new column aligning their data according to the 10 character rule.
+    For example:
+          If in the first reading of data passing through line by line it found a 1 value alone, it moves it to the bottom line adding a new column to the line, following the 10 character rule, when opening the text you will notice that There are values ​​that start with 100 and 450 and go up to 10 characters.
+          each one belongs to the same line.
+    I sincerely hope that this can help some Devs who have a file that has undergone severe coding.
