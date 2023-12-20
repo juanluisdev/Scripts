@@ -17,7 +17,7 @@
    # iterar_txt.ps1 = Limapr dados TXT para XLSX
     Tive um pedido de realizar uma limpeza em um arquivo txt que passou por diversas codificações, assim ficando "sujo" em seus dados.
     Cliente pediu um script que pudesse ajustar linhas e colunas jogando em um arquivo xlsx.
-    Esse script vai pegar linhas que estejam sozinhas e ajustalas em uma nova coluna alinhando seus dados conforme a regra de 10 caracteres.
+    Esse script vai pegar linhas que estejam sozinhas e ajusta-las em uma nova coluna alinhando seus dados conforme a regra de 10 caracteres.
     Por exemplo:
           Se na primeira leitura de dados passando por linha a linha ele encontrou uma 1 valor sozinho, ele move a mesma para a linha de baixo adicionando em uma nova coluna alinha, seguindo com a regra de 10 caracteres, ao abrir o txt vcs vão perseber que existe valores que começam com 100 e 450 indo ate 10 caracteres.
           cada um pertence a mesma linha.
